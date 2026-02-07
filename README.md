@@ -28,10 +28,10 @@ The program allows users to create a bank account and perform basic banking oper
 2. Open in VS Code or any Java IDE
 
 Compile:
+javac Main.java
 
 Run:
-
----
+java Main
 
 ## Future Improvements
 - Save account data into a file

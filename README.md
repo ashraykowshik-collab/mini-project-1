@@ -42,6 +42,6 @@ Run:
 
 ## Author
 **Ashray Kowshik**
-Formatted README properly
+
 
 

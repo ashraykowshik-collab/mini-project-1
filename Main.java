@@ -23,7 +23,13 @@ class BankAccount{
         }
         double serviceCharge(){
             double charge = 500.0;
-            super.setBalance(super.getBalance() - charge);
+            if (super.getBalance() >= charge) {
+                super.setBalance(super.getBalance() - charge);
+                System.out.println("Service charge deducted: " + charge);
+            } else {
+                System.out.println("Insufficient balance for service charge.");
+                return 0.0;
+            }
             return charge;
         }
     }
